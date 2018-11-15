@@ -55,19 +55,19 @@
       }
 
       .panel1 {
-        background-image: url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500);
+        background-image: url(gfx/01.jpg);
       }
       .panel2 {
-        background-image: url(https://source.unsplash.com/rFKUFzjPYiQ/1500x1500);
+        background-image: url(gfx/02.jpg);
       }
       .panel3 {
-        background-image: url(https://images.unsplash.com/photo-1465188162913-8fb5709d6d57?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&w=1500&h=1500&fit=crop&s=967e8a713a4e395260793fc8c802901d);
+        background-image: url(gfx/03.jpg);
       }
       .panel4 {
-        background-image: url(https://source.unsplash.com/ITjiVXcwVng/1500x1500);
+        background-image: url(gfx/04.jpg);
       }
       .panel5 {
-        background-image: url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500);
+        background-image: url(gfx/05.jpg);
       }
 
       /* Flex Items */
@@ -109,6 +109,10 @@
         flex: 5;
         font-size: 40px;
       }
+      .kontakt {
+        display: flex;
+        justify-content: center;
+      }
 
       @media only screen and (max-width: 600px) {
         .panel p {
@@ -144,7 +148,9 @@
         <p>Najlepsze wydarzenia, podczas których bez przerwy coś się dzieje, a emocje nie opadają!</p>
       </div>
     </div>
-
+    <div class="kontakt">
+      <p>Napisz do nas na adres <strong> info@retrogameparty.pl </strong> albo zadzwoń, jesteśmy dostępni pod numerem<strong> 515 115 750</strong></p>
+    </div>
     <script>
       const panels = document.querySelectorAll(".panel");
 
