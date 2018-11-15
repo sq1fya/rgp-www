@@ -1,4 +1,4 @@
-# website design for retro gamelovers
+# website design for retro game lovers
  
 * [link to project](http://retrogameparty.pl)
 
