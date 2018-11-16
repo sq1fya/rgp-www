@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <title>Retro Game Party</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Amatic+SC"
-      rel="stylesheet"
-      type="text/css"
+    href="css/main.css"
+    href="https://fonts.googleapis.com/css?family=Amatic+SC"
+    rel="stylesheet"
+    type="text/css"
     />
-    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link  rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
-
+    
     <div class="panels">
       <div class="panel panel1">
         <p>Zagraj w retro gierki z lat 80-tych</p>
@@ -51,6 +52,7 @@
         zadzwoń, jesteśmy dostępni pod numerem<strong> 515 115 750</strong>
       </p>
     </div>
+
     <script>
       const panels = document.querySelectorAll(".panel");
 
@@ -59,16 +61,18 @@
         this.classList.toggle("open");
       }
 
-      function toggleActive(e) {
-        console.log(e.propertyName);
-        if (e.propertyName.includes("flex")) {
+      function toggleActive(event) {
+        console.log(event.propertyName);
+        if (event.propertyName.includes("flex")) {
           this.classList.toggle("open-active");
         }
       }
+      function toggleClose() {
+        
+      }
 
       panels.forEach(panel => panel.addEventListener("click", toggleOpen));
-      panels.forEach(panel =>
-        panel.addEventListener("transitionend", toggleActive)
+      panels.forEach(panel => panel.addEventListener("transitionend", toggleActive)
       );
     </script>
   </body>

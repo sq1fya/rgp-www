@@ -42,19 +42,19 @@ html {
   }
 
   .panel1 {
-    background-image: url(gfx/01.jpg);
+    background-image: url(../gfx/01.jpg);
   }
   .panel2 {
-    background-image: url(gfx/02.jpg);
+    background-image: url(../gfx/02.jpg);
   }
   .panel3 {
-    background-image: url(gfx/03.jpg);
+    background-image: url(../gfx/03.jpg);
   }
   .panel4 {
-    background-image: url(gfx/04.jpg);
+    background-image: url(../gfx/04.jpg);
   }
   .panel5 {
-    background-image: url(gfx/05.jpg);
+    background-image: url(../gfx/05.jpg);
   }
 
   /* Flex Items */
