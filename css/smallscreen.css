@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .panel p {
     font-size: 1em;
   }
@@ -20,5 +20,11 @@
   }
   .panel.open-active > *:last-child {
     transform: translateX(0);
+  }
+  .panel p:nth-child(2) {
+    font-size: 2em;
+  }
+  body {
+      font-size: 50%;
   }
 }
