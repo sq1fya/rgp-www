@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) {
+  .panel p {
+    font-size: 1em;
+  }
+  .panels {
+    flex-direction: column;
+  }
+  .panel :hover {
+    transform: none;
+    text-shadow: none;
+  }
+  .panel > *:first-child {
+    transform: translateX(-100%);
+  }
+  .panel.open-active > *:first-child {
+    transform: translateX(0);
+  }
+  .panel > *:last-child {
+    transform: translateX(100%);
+  }
+  .panel.open-active > *:last-child {
+    transform: translateX(0);
+  }
+}
