@@ -90,7 +90,7 @@ html {
 
   .panel :hover {
     transform: translateY(-5%);
-    text-shadow: 0px 0px 20px yellow;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
   }
 
   .panel p:nth-child(2) {
