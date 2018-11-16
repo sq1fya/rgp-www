@@ -88,6 +88,11 @@ html {
     font-size: 2em;
   }
 
+  .panel :hover {
+    transform: translateY(-5%);
+    text-shadow: 0px 0px 20px yellow;
+  }
+
   .panel p:nth-child(2) {
     font-size: 4em;
   }
