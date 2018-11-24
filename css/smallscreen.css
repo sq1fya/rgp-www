@@ -28,3 +28,8 @@
       font-size: 50%;
   }
 }
+.scroll-down{
+  bottom: 10px;
+  width: 13px;
+  height: 13px;
+}
